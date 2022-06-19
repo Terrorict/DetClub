@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace DetClub
 {
-    class CurrentUser
+    class CurrentUser  // Отвечает за пользователя, который вошёл в программу
     {
         public int ID { get; set; }
         public string Name { get; set; }
         public string Login { get; set; }
         public string Role { get; set; }
-
     public void Clear()
     {
         ID = 0;
@@ -20,15 +19,13 @@ namespace DetClub
         Login = "";
         Role = "";
     }
-
-        public void Fill(int id, string name, string login, string role)
-        {
-            ID = id;
-            Name = name;
-            Login = login;
-            Role = role;
-        }
-
+    public void Fill(int id, string name, string login, string role)
+    {
+        ID = id;
+        Name = name;
+        Login = login;
+        Role = role;
+    }
     }
 
 }
