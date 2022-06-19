@@ -21,13 +21,13 @@ namespace DetClub
         Role = "";
     }
 
-        public void Fill(int id, string name, string login, string role)
-        {
-            ID = id;
-            Name = name;
-            Login = login;
-            Role = role;
-        }
+    public void Fill(int id, string name, string login, string role)
+    {
+        ID = id;
+        Name = name;
+        Login = login;
+        Role = role;
+    }
 
     }
 
